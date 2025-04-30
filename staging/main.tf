@@ -8,7 +8,7 @@ terraform {
   }
 }
 
-# Configure the terraform backend to store the terraform state -- please work 
+# Configure the terraform backend to store the terraform state -- please work -- master branch
 terraform {
   backend "s3" {
     bucket = "platform-engineering-terraform-state-ramones"
